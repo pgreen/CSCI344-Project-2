@@ -1,0 +1,40 @@
+header {
+  padding: 30px;
+  font-family: Roboto Condensed;
+  background-color: #a8db87;
+  border-color: #538e2c;
+  border-width: 30px;
+}
+
+header h1 {
+  padding-left: 430px;
+}
+
+header h2 {
+  padding-left: 490px;
+}
+
+header h3 {
+  padding-left: 450px;
+}
+
+div {
+  width: 480px;
+  margin-left: 80px;
+}
+
+p {
+  width: 960px;
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-left: 60px;
+  margin-left: 80px;
+  font-family: Roboto Condensed;
+  font-size: 24px;
+  background-color: #c4eda9;
+}
+
+.hide {
+  display: none;
+}
