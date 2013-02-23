@@ -8,18 +8,20 @@
   <body>
     <header>
       <h1>Penny's Twitter Search!!!</h1>
-      <h2>Tracking results for:</h2>
-      <h3> Ruby on Rails, Node.js, Oracle SQL</h3>    
+      <h2>Tracking results for:</h2>  
     </header>
-
-      <button onclick="startTweet()">Start</button>
-      <button onclick="stopTweet()">Stop</button>
-      <div id="1"></div>
-      <div id="2"></div>
-      <div id="3"></div>
-      <div id="4"></div>
-      <div id="5"></div>
-      
+    <article>
+      <div id="searchInt">
+        <input id="user_input" type="text">
+        <button onclick="startTweet()">Start</button>
+        <button onclick="window.location.reload()">Stop</button>  
+      </div>
+      <p id="1"></p>
+      <p id="2"></p>
+      <p id="3"></p>
+      <p id="4"></p>
+      <p id="5"></p>
+    </article>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="javascripts/lib/ctwitter.js"></script>
     <script src="javascripts/lib/jquery-timeago-master/jquery.timeago.js"></script>
