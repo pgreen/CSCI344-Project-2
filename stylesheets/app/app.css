@@ -1,6 +1,12 @@
+body html{
+  margin: 0;
+  padding: 0;
+  color: #000;
+}
+
 header {
   padding: 30px;
-  font-family: Roboto Condensed;
+  font-family: Roboto Condensed, serif;
   background-color: #a8db87;
   border-color: #538e2c;
   border-width: 30px;
@@ -11,28 +17,42 @@ header h1 {
 }
 
 header h2 {
-  padding-left: 490px;
+  padding-left: 395px;
 }
 
 header h3 {
-  padding-left: 450px;
+  padding-left: 365px;
 }
 
-div {
-  width: 480px;
-  margin-left: 80px;
-}
+input {
+  margin: 10px;
+  font-family: Roboto Condensed , serif;
+  font-size: 24px;
+  border-color: #538e2c;
+  border-width: 20px;
+  padding-left: 10px;
+}  
 
-p {
-  width: 960px;
-  padding-top: 30px;
-  padding-right: 30px;
-  padding-bottom: 30px;
-  padding-left: 60px;
-  margin-left: 80px;
+#btnStart {
   font-family: Roboto Condensed;
   font-size: 24px;
-  background-color: #c4eda9;
+  border-color: #538e2c;
+  border-width: 20px;
+  margin-left: 340px;
+  padding-left: 10px; 
+}
+
+#btnStop {
+  font-family: Roboto Condensed, serif;
+  font-size: 24px;
+  border-color: #538e2c;
+  border-width: 20px;
+  padding-left: 10px; 
+}
+
+article {
+  margin-left:270px;
+  margin-right: 230px;
 }
 
 .hide {
