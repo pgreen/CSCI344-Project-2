@@ -18,7 +18,7 @@ header {
   border:20px outset #538e2c;
 }
 
-input {
+#user_input {
   margin: 10px;
   font-family: Roboto Condensed , serif;
   font-size: 24px;
@@ -26,13 +26,18 @@ input {
   padding-left: 10px;
 }  
 
-#btnStop {
+#start-click {
   font-family: Roboto Condensed, serif;
   font-size: 24px;
   border:20px outset #538e2c;
 }
 
-article {
+#stop-click {
+  font-family: Roboto Condensed, serif;
+  font-size: 24px;
+  border:20px outset #538e2c;
+  
+}article {
   margin-left:270px;
   margin-right: 230px;
 }
