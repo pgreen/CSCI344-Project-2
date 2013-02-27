@@ -8,46 +8,28 @@ header {
   padding: 30px;
   font-family: Roboto Condensed, serif;
   background-color: #a8db87;
-  border-color: #538e2c;
-  border-width: 30px;
+  border:10px inset #538e2c;
+  text-align: center;
 }
 
-header h1 {
-  padding-left: 430px;
-}
-
-header h2 {
-  padding-left: 395px;
-}
-
-header h3 {
-  padding-left: 365px;
+#btnStart {
+  font-family: Roboto Condensed;
+  font-size: 24px;
+  border:20px outset #538e2c;
 }
 
 input {
   margin: 10px;
   font-family: Roboto Condensed , serif;
   font-size: 24px;
-  border-color: #538e2c;
-  border-width: 20px;
+  border:20px inset #538e2c;
   padding-left: 10px;
 }  
-
-#btnStart {
-  font-family: Roboto Condensed;
-  font-size: 24px;
-  border-color: #538e2c;
-  border-width: 20px;
-  margin-left: 340px;
-  padding-left: 10px; 
-}
 
 #btnStop {
   font-family: Roboto Condensed, serif;
   font-size: 24px;
-  border-color: #538e2c;
-  border-width: 20px;
-  padding-left: 10px; 
+  border:20px outset #538e2c;
 }
 
 article {
